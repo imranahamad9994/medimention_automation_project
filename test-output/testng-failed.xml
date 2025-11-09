@@ -4,13 +4,13 @@
   <test thread-count="5" name="master(failed)">
     <parameter name="Browser" value="chrome"/>
     <classes>
-      <class name="testCases.Test_01_LoginDataDriven">
+      <class name="testCases.Test_01_Login">
         <methods>
+          <include name="verifyLogin"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="verifyLogin" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- testCases.Test_01_LoginDataDriven -->
+      </class> <!-- testCases.Test_01_Login -->
     </classes>
   </test> <!-- master(failed) -->
 </suite> <!-- Failed suite [Suite] -->

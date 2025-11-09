@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="34" passed="34" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-06T16:54:31 IST" name="Suite" finished-at="2025-11-06T16:55:30 IST" duration-ms="58893">
+  <suite started-at="2025-11-08T17:23:44 IST" name="Suite" finished-at="2025-11-08T17:28:38 IST" duration-ms="294309">
     <groups>
     </groups>
-    <test started-at="2025-11-06T16:54:31 IST" name="master" finished-at="2025-11-06T16:55:30 IST" duration-ms="58893">
+    <test started-at="2025-11-08T17:23:44 IST" name="master" finished-at="2025-11-08T17:28:38 IST" duration-ms="294309">
       <class name="testCases.Test_01_LoginDataDriven">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-06T16:54:31 IST" name="setup" finished-at="2025-11-06T16:54:50 IST" duration-ms="19051" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:23:44 IST" name="setup" finished-at="2025-11-08T17:23:50 IST" duration-ms="6485" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,37 +18,16 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-06T16:54:52 IST" name="verifyLogin" data-provider="LoginData" finished-at="2025-11-06T16:55:07 IST" duration-ms="14713" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:23:55 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:24:13 IST" duration-ms="17077" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[VHAjabd]]>
+                <![CDATA[aions1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[INIndin]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-06T16:55:07 IST" name="verifyLogin" data-provider="LoginData" finished-at="2025-11-06T16:55:21 IST" duration-ms="13826" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[VdHlP]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[iLmeL809]]>
+                <![CDATA[zW9_=#vb]]>
               </value>
             </param>
             <param index="2">
@@ -60,16 +39,604 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-06T16:55:21 IST" name="verifyLogin" data-provider="LoginData" finished-at="2025-11-06T16:55:29 IST" duration-ms="8529" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:24:13 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:24:23 IST" duration-ms="10134" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Zik@mail.com]]>
+                <![CDATA[dashfield2]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Zik123]]>
+                <![CDATA[oI1%1xA6gqgWLx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:24:23 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:24:30 IST" duration-ms="7692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rkhomin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mB2#&_`t~ChV]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:24:30 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:24:39 IST" duration-ms="8615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gepple4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iS6${b}XYRm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:24:39 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:24:49 IST" duration-ms="10166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dmckue5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bA5!&aJ+(3kI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:24:49 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:24:58 IST" duration-ms="9232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kallward6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tQ7{aV8uY14W57KH]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:24:58 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:25:10 IST" duration-ms="11126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mcayton7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tX7`_Cl`+]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:25:10 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:25:18 IST" duration-ms="8265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mnannetti8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mX1@.fM%~If!~/>%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:25:18 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:25:26 IST" duration-ms="8059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jgeorge9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bS1?D'5PL7_]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:25:26 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:25:34 IST" duration-ms="7830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lcraciea]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eD5}WUx8s$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:25:34 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:25:41 IST" duration-ms="7114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kgeaneyb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wD2|f|BL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:25:41 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:25:48 IST" duration-ms="7459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fdoelc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vU5\?LsQGjp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:25:48 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:25:56 IST" duration-ms="7825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bskerrettd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qV3)g%7Sm/Qw]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:25:56 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:26:07 IST" duration-ms="10472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dtibalde]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yP1#V?P7RWWjX1\]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:26:07 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:26:16 IST" duration-ms="9279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cmerckf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lD9`\=*=+Buk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:26:16 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:26:26 IST" duration-ms="9613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nsorelg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nB1$4)l"S)5Lb>]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:26:26 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:26:35 IST" duration-ms="9475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fhigbinh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wP4'W=EBg4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:26:35 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:26:43 IST" duration-ms="8328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fdalessioi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wI2!?aZRG]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:26:43 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:26:51 IST" duration-ms="7513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dwykesj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cW1,Y|Sm1Pe0T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:26:51 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:26:58 IST" duration-ms="7535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[spatesk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qY3"}e}ZSSCyOSFz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:26:58 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:27:08 IST" duration-ms="9347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[awimmsl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bP8{X6lK$.N<X4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:27:08 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:27:15 IST" duration-ms="6876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gdanilinm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wF7+36,KKR!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:27:15 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:27:22 IST" duration-ms="7276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ndickinsonn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wY2_O39p&7!_]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:27:22 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:27:30 IST" duration-ms="7721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashrimptoneo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bN6.*fU5rg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:27:30 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:27:38 IST" duration-ms="8030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lgambrellp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[oD7(S?FHC(&?]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:27:38 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:27:45 IST" duration-ms="7492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bcircuitq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jL7*q`+Vi\sX\)7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:27:45 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:27:53 IST" duration-ms="8005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ghaffordr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[oA8`o>O8?pK"=X|E]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:27:53 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:28:01 IST" duration-ms="7770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rhymass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fM6+iNL>q%N]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:28:01 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:28:08 IST" duration-ms="6863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mbarnevillet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uE6@OXR/`j8Zk}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:28:08 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:28:13 IST" duration-ms="5250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[spates]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cW1,Y|]]>
               </value>
             </param>
             <param index="2">
@@ -81,7 +648,91 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-06T16:55:29 IST" name="tearDown" finished-at="2025-11-06T16:55:30 IST" duration-ms="430" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:28:13 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:28:18 IST" duration-ms="5438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mnannetti891]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bv#=_9Wz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:28:18 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:28:25 IST" duration-ms="6645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ghafford]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[%>/~!fI~%Mf.@1Xm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:28:25 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:28:31 IST" duration-ms="6292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fhigbinh62]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mRYX}b{$6Si]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:28:31 IST" name="verifyLogin" data-provider="LoginwithInValidData" finished-at="2025-11-08T17:28:37 IST" duration-ms="5519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fdalessioi77]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yP1#V?P]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Test_01_LoginDataDriven@4d1c00d0]" started-at="2025-11-08T17:28:37 IST" name="tearDown" finished-at="2025-11-08T17:28:38 IST" duration-ms="1008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

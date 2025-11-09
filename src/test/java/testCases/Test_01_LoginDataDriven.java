@@ -12,7 +12,7 @@ import PageObjects.HomePage;
 import PageObjects.LoginPage;
 import utilities.DataProviders;
 
-@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class)
+@Test(dataProvider = "LoginwithInValidData", dataProviderClass = DataProviders.class)
 public class Test_01_LoginDataDriven extends BaseClass {
 
 	
