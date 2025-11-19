@@ -3,6 +3,7 @@ package testCases;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import PageObjects.AccountPage;
 import PageObjects.BaseClass;
@@ -17,6 +18,7 @@ public class Test_001_RegisterDDT extends BaseClass {
 	@Test(dataProvider = "RegistrationData", dataProviderClass = DataProviders.class)	
 	void testResgistration(String fname, String username, String email, String password)
 	{
+		SoftAssert sf = new SoftAssert();
 		try {
 			
 		
@@ -50,16 +52,17 @@ public class Test_001_RegisterDDT extends BaseClass {
 		AccountPage ap = new AccountPage(driver);
 		ap.clickDropdown();
 		ap.clickLogout();
-		Assert.assertTrue(successMsg);
+		sf.assertTrue(successMsg);
 		}
 		
 		catch(Exception e)
 		{
 			System.out.println(e.getMessage());
-			Assert.fail();
+			sf.fail();
 		}
 		
 		driver.navigate().to(URL);
+		sf.assertAll();
 		
 
 }
