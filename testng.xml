@@ -9,12 +9,10 @@
   <test thread-count="5" name="master">
   <parameter name="Browser" value="chrome"/>
     <classes>
-   <!-- <class name="testCases.Test_01_Resistration"/>
-    
+   <!-- <class name="testCases.Test_01_Resistration"/>   
      <class name="testCases.Test_01_LoginDataDriven"/>  
-      
         <class name="testCases.Test_001_RegisterDDT"/> -->
-     <class name="testCases.Test_01_Resistration"/>
+ 		<class name="testCases.Test_01_Resistration"/>
     </classes>
   </test> <!-- master -->
 </suite> <!-- Suite -->

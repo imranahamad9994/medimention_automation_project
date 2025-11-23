@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-21T21:20:18 IST" name="Suite" finished-at="2025-11-21T21:20:52 IST" duration-ms="34065">
+    <groups>
+    </groups>
+    <test started-at="2025-11-21T21:20:18 IST" name="master" finished-at="2025-11-21T21:20:52 IST" duration-ms="34065">
+      <class name="testCases.Test_01_Resistration">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Test_01_Resistration@4550bb58]" started-at="2025-11-21T21:20:19 IST" name="setup" finished-at="2025-11-21T21:20:36 IST" duration-ms="17512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testResgistration()[pri:0, instance:testCases.Test_01_Resistration@4550bb58]" started-at="2025-11-21T21:20:36 IST" name="testResgistration" finished-at="2025-11-21T21:20:52 IST" duration-ms="15783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResgistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Test_01_Resistration@4550bb58]" started-at="2025-11-21T21:20:52 IST" name="tearDown" finished-at="2025-11-21T21:20:52 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Test_01_Resistration -->
+    </test> <!-- master -->
+  </suite> <!-- Suite -->
+</testng-results>
